@@ -1,3 +1,7 @@
+# Upload image and Preview it using React
+
+Simply upload a photo from your local device to your React Project and preview it using a static method URL. createObjectURL()...
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
