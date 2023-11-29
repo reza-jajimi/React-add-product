@@ -1,0 +1,33 @@
+.mainCardBody {
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  transform-style: preserve-3d;
+  position: relative;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 2px 4px 10px #3e3e3e2d;
+  border-radius: 4px;
+}
+
+.mainCardBody:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  transition: 0.7s;
+  box-shadow: -2px 4px 15px #3e3e3e8f;
+}
+
+.flip-card-front {
+  position: absolute;
+  top: 0;
+  backface-visibility: hidden;
+  transition: 0.7s;
+}
+
+.flip-card-back {
+  position: absolute;
+  top: 0;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  transition: 0.7s;
+}
