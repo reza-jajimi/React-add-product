@@ -3,6 +3,7 @@
 Simply upload a photo from your local device to your React Project and preview it using a static method URL. createObjectURL()...
 
 Author: Reza Jajimi
+
 Email: jajimi.reza@gmail.com
 
 # React + TypeScript + Vite
